@@ -1,0 +1,73 @@
+*{color:black;
+}
+
+.bg{
+    background: url("../image/login1.jpg");
+    /* opacity: 0.5; */
+     /* no-repeat; */
+     width: 100%;
+     height: 100vh;
+}
+
+.form-container{
+    background: url("../image/pra7.jpg"); 
+}
+
+
+
+    
+.form-container{
+    border: 0px solid;
+    border-color: white;
+    padding: 50px 40px;
+    margin-top: 20vh;
+    /* webkitboxshadow: -1px 4px 26px 11px rgba(0,0,0,0.75); */
+    -moz-box-shadow: -1px 4px 26px 11px rgba(0,0,0,0.75);
+    box-shadow: -1px 4px 26px 11px rgba(0,0,0,0.75);
+    border-radius:50px ;
+    
+}
+h1{
+    color:black;
+    font-weight: bolder;
+    text-align: center;
+    /* font-family: ; */
+}
+.first .btnn{
+    margin-top: 40px;
+    border-radius: 100px;
+    width: 140px;
+    margin-left: 125px;
+    font-size: 16px;
+    border: solid 1px black;
+}
+
+
+@media (max-width: 768px){
+
+.form-container{
+    border: 0px solid;
+    border-color: white;
+    padding: 50px 40px;
+    margin-top: 20vh;
+    /* webkitboxshadow: -1px 4px 26px 11px rgba(0,0,0,0.75); */
+    -moz-box-shadow: -1px 4px 26px 11px rgba(0,0,0,0.75);
+    box-shadow: -1px 4px 26px 11px rgba(0,0,0,0.75);
+    border-radius:50px ;
+    
+}
+h1{
+    color:black;
+    font-weight: bolder;
+    text-align: center;
+    /* font-family: ; */
+}
+.first .btnn{
+    margin-top: 40px;
+    border-radius: 100px;
+    width: 140px;
+    margin-left: 140px;
+    font-size: 16px;
+    border: solid 1px black;
+}
+}

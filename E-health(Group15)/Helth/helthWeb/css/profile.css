@@ -1,0 +1,92 @@
+body{
+    /*background: url(../image/bg2.jpg);*/
+    background: url("../image/bg6.png") ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    /* opacity: 0.5; */
+}
+*:focus{
+    outline: none;
+}
+.box{
+    background: url(../image/pra4.jpg);
+    /* opacity: 0.5; */
+    padding-top: 20px;
+    width: 380px;
+    box-shadow: 8px 8px 50px whitesmoke;  
+    background-color:transparent;
+    
+    overflow: hidden;
+    
+}
+img{
+    box-sizing: border-box;
+    width: 149px;
+    height: 149px;
+    border-radius: 50%;
+    margin: 0;
+    border: 5px solid rgb(32, 10, 177);
+    padding: 3px;
+    background-color: rgb(29, 130, 212);
+}
+input[type="text"],
+input[type="email"]{
+    display: block;
+    box-sizing: border-box;
+    background: none;
+    color:blue;
+    margin-bottom: 30px;
+    padding: 4px;
+    width: 220px;
+    height: 32px;
+    border: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    transition: 0.5s ease;
+}
+input[type="text"]:focus,
+input[type="email"]:focus{
+   border-bottom: 2px solid rgb(228, 217, 217);
+   border-bottom-right-radius: 20px;
+   color: black;
+   transition: 0.5s;  
+}
+button{
+    border: 1px solid rgb(147, 150, 163);
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    margin: 0px;
+    transition: all 0.3s;
+}
+button:hover{
+    transform: scale(1.1);
+}
+input[type="file"]{
+    display: none;
+}
+label{
+    box-sizing: border-box;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    border: 1px solid rgb(133, 133, 146);
+    font-family: 'Roboto',sans-serif;
+    padding: 2px 10px;
+    border-radius: 6px;
+    transition: all 0.3s;
+}
+label:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.box1{
+    margin-top: 40px;
+}

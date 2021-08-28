@@ -1,0 +1,156 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/contactus.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <title>E-Health</title>
+  </head>
+  <body>
+
+
+<nav class="navbar bg-light navbar-light navbar-expand-lg fixed-top">
+    <div class="container">
+        <a href="#" class="navbar-brand"><img src="image/logo.png"
+            alt="Logo" title="Logo"></a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    
+                  <ul>
+                    <li class="#"><a href="homepage.html">HOME</a></li>
+                    <!-- <li><a href="#">ABOUT</a></li>   -->
+                    <li class="active"><a href="">CONTACT</a></li> 
+                    <!-- <li><a href="#">LOG IN</a></li> -->
+                    
+                  </ul>
+                </ul>
+            </div> 
+        </div>
+    </nav>
+
+
+
+
+
+
+
+
+
+
+
+
+ <section class="Form my-4 mx-5">
+      <div class="container">
+        <div class="row no-gutters">
+         <!--  <div class="col-lg-1">
+            <img src="b.png" class="img-fluid" alt="">
+          </div>
+ -->
+        
+        <!-- <div class="col-lg-3 my-5 mx-1">
+            <img src="c2.jpg" class="img-fluid" alt="">
+        </div> -->
+
+        <div class="col-lg-5">
+            
+            <p><center>If you have Questions or just<br>want to get in touch, use the<br>form below. We look forward to<br>hearing from you!<br><br></center></p>
+            <h6><center>Contact No:076-4720883<br>E-mail: ehealth1507@gmail.com</center></h6>
+            <img src="image/b.png" class="img-fluid" alt="">
+          </div>
+    
+
+
+
+
+
+
+          <div class="col-lg-7 px-5 pt-5">
+           <!--  <h1 class="font-weight-bold py-3">Contact Us</h1> -->
+           
+            <form action="controller/addContact.php" method="POST">
+              <div class="form-row">
+                <div class="col-lg-5">
+                  <label>Your Name: </label>
+                  <input type="text" placeholder="Enter your name" minlength="4"  class="form-control my-2 p-2" name="name" required>
+                </div>
+
+              </div>
+
+                <div class="form-row">
+                <div class="col-lg-7">
+                  <label>E-mail: </label>
+                  <input type="email" minlength="2" placeholder="Enter your E-mail" class="form-control my-2 p-2" name="email" required>
+                </div>
+
+              </div>
+
+              
+
+
+              <div class="form-group">
+                <label>Message:</label>
+                <textarea class="form-control" minlength="10" name="message" placeholder="Enter your Message" id="exampleFormControlTextarea1" rows="4" required></textarea>
+              </div>
+
+
+                <div class="form-row">
+                <div class="col-lg-7 mb-4 mt-4">
+                  <input class="btn btn-primary" type="submit" name="contact" class="btn1">
+                  
+                </div>
+
+              </div> 
+              
+              
+
+          </div>
+
+        </div>
+      </div>
+      
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="footer">
+  <h6>E-Health</h6>
+  Copyright &copy; E-Health
+</div>
+
+
+
+
+
+
+
+
+  </body>
+  </html>
+
+
+
+

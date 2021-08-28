@@ -1,0 +1,175 @@
+.navbar-brand img{
+    height:3rem;
+}
+.navbar{
+    font-size:1.15rem;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    box-shadow: 0 .5rem .5rem rgba(0,0,0,.1);
+    z-index:1;
+    align-content: right;
+
+    
+}
+/* .nav-item{
+    padding:.4rem;
+
+} */
+/* .nav-link{
+    color:#5b5555 !important;
+}
+.nav-link.active,
+.nav-link:hover{
+    color:#236E0B!important;
+    font-weight: bold;
+} */
+
+
+
+
+
+
+
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 20px;
+    margin-right: 15px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.7s;
+} 
+
+ul li a:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+ul li.active a{
+    background-color: rgb(19, 14, 14);
+    color: lavenderblush;
+}
+
+/* .logo img{
+    float: left;
+    width: 125px;
+    height: auto;
+    border-radius: 200px;
+    margin-bottom: 20px;
+} */
+
+#btnGroupDrop1{
+    float: right;
+    list-style-type: none;
+    margin-top: 50px;
+    margin-right: 15px; 
+}
+
+
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+
+
+
+body{
+    background-image: url("../image/background2.jpg");
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+
+}
+
+
+    
+.row{
+   
+   background-image: url("../image/C.jpg");
+    border-radius: 10px;
+    box-shadow: 12px 12px 22px black;
+    margin-top: 110px;
+     background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+label{
+    font-weight: bold;
+    color:black;
+}
+h1{
+  color:white;
+
+}
+.btn {
+    border:none;
+    outline:none;
+    height:auto;
+    width:200px;
+    margin-bottom: 50px; 
+    margin-top: 5px;
+
+}
+
+.img-fluid{
+    margin-top: 20px;
+    width :140px;
+    height:140px;
+}
+
+
+
+
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   height:60px;
+   background-color: #4A4C49 /*black*/;
+   color: black;
+   text-align: center;
+
+}
+
+
+
+
+
+@media (max-width: 768px){
+    .img-fluid{
+        margin-top: 20px;
+        width :140px;
+        height:140px;
+        margin-left:100px;
+    }
+
+
+    .btn {
+        border:none;
+        outline:none;
+        height:auto;
+        width:200px;
+        margin-bottom: 50px; 
+        margin-top: 5px;
+        margin-left: 30px;
+    }
+    
+
+}
