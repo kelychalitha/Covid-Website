@@ -38,18 +38,6 @@ Copy the web site to the htdocs
 
 Credintials details
 
-1. citizen credintials: Username:pramila1999@gmail.com
-                        Passward:pramila1999
-
-(You can create any account as you wish. this credintials are, 
-one of account that we created to test the system)
-
-2. PHI Credintials:   Username:malindipawani@gmail.com / nipunikavindi1507@gmail.com
-                      Passward:pawani20033 /nipuni1999
-
-(You can create any account as you wish. this credintials are, 
-one of account that we created to test the system)
-
-3. Admin(CDC) Credintials: Username: admin@helth.lk
+1. Admin(CDC) Credintials: Username: admin@helth.lk
                    Passward:12345678
 
