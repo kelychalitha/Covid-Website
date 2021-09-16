@@ -49,6 +49,8 @@ Credintials details
 ==========================================================================================
 ==========================================================================================
 A scenario for the project 
+
+
 Center for Disease Control and Prevention (CDC) is the main body in managing the pandemic situations such as COVID-19 in Sri Lanka. With the help of the ministry of health and Public Health Inspectors (PHI) the CDC is planning to establish an internet service where the citizens can report their locations when they are moving one place to another. CDC hired you to develop a web API which can facilitate the below requirements.
 i.	Any citizen can become a member through a free online registration.
 ii.	The citizens must update their current location when they travel by scanning a QR code at every super market, food outlets, schools, etc.
