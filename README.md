@@ -56,7 +56,7 @@ iii.	The PHI officers monitor the citizens and update the PCR or Antigen test re
 iv.	The immediate contacts of the COVID positive patients are then traced by the CDC. 
 
 ========================================================================================
-========================================================================================
+==========================================================================================
 
 Minimal Required APIs
 •	POST 	/citizens
