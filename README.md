@@ -46,9 +46,8 @@ Credintials details
 
 
 
-===========================================================================================================================================
-===========================================================================================================================================
-
+===========================================================================================
+===========================================================================================
 A scenario for the project 
 Center for Disease Control and Prevention (CDC) is the main body in managing the pandemic situations such as COVID-19 in Sri Lanka. With the help of the ministry of health and Public Health Inspectors (PHI) the CDC is planning to establish an internet service where the citizens can report their locations when they are moving one place to another. CDC hired you to develop a web API which can facilitate the below requirements.
 i.	Any citizen can become a member through a free online registration.
@@ -56,8 +55,8 @@ ii.	The citizens must update their current location when they travel by scanning
 iii.	The PHI officers monitor the citizens and update the PCR or Antigen test results for each individual. 
 iv.	The immediate contacts of the COVID positive patients are then traced by the CDC. 
 
-==================================================================================================================================================
-==================================================================================================================================================
+========================================================================================
+==========================================================================================
 
 Minimal Required APIs
 •	POST 	/citizens
@@ -73,4 +72,4 @@ The CDC staff can deactivate an individual’s account if the patient is decease
 •	GET	/citizens/:nid/contacts
 The CDC staff should be able to collect information about contacts of any citizen.
 
-=============================================================================================================================================================
+===========================================================================================
