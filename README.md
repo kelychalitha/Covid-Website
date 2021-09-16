@@ -48,30 +48,38 @@ Credintials details
 
 ==========================================================================================
 ==========================================================================================
-A scenario for the project 
 
-
-Center for Disease Control and Prevention (CDC) is the main body in managing the pandemic situations such as COVID-19 in Sri Lanka. With the help of the ministry of health and Public Health Inspectors (PHI) the CDC is planning to establish an internet service where the citizens can report their locations when they are moving one place to another. CDC hired you to develop a web API which can facilitate the below requirements.
-i.	Any citizen can become a member through a free online registration.
-ii.	The citizens must update their current location when they travel by scanning a QR code at every super market, food outlets, schools, etc.
-iii.	The PHI officers monitor the citizens and update the PCR or Antigen test results for each individual. 
-iv.	The immediate contacts of the COVID positive patients are then traced by the CDC. 
-
-========================================================================================
-==========================================================================================
-
-Minimal Required APIs
-•	POST 	/citizens
-Citizens and PHIs can register themselves with details including a national ID, name, age, address, current location (latitude and longitude), profession, email, affiliation, password, health status, etc.
-•	GET	/citizens/:nid
-PHI or CDC officers can collect the details of any citizen.
-•	PUT	/citizens/:nid
-Individual citizens should be able to update their current locations.
-•	PUT	/citizens/:nid
-While the PHIs should be able to update the citizen’s health status (such as COVID positive or negative, deceased, recovered, etc.)
-•	DELETE	/citizens/:nid
-The CDC staff can deactivate an individual’s account if the patient is deceased.
-•	GET	/citizens/:nid/contacts
-The CDC staff should be able to collect information about contacts of any citizen.
+This is the RESTful API, build for the ministry of health to gather information about the managing the 
+pandemic situation, such as COVID-19. There have three main parts such as CDC (Center for Dicease 
+Control Prevention), PHI and Citizen. CDC and PHI planning to establish internet service where citizens 
+can report their location, when they are moving somewhere. There giving chance to citizens, free online 
+registration to anyone. After citizen can update their location using QR code and PHI can monitor their
+antigen or PCR test result. CDC can traced by the covid positive patients. After that CDC can deactivate 
+the covid positive patients accounts from the system. Then CDC can sent an email to the positive 
+patients about the account deactivation. Most of methods written by POST, PUT, DELETE and GET 
+methods for helping to developers. 
 
 ===========================================================================================
+
+
+These are the tools & technologies that we used to develop the E- health system.
+We used, PHP, HTML, BOOTSTRAP, NODE JS and Flutter with dart language to do the front end 
+development part by creating a web application and the mobile application.
+1) (Mobile application) flutter with dart language
+We are using flutter with dart language to develop our E- health mobile application. The reason 
+that we choose flutter is,
+• The mobile application is run on both android and iOS. (can developed cross platform 
+apps)
+• Hot reload
+• Ready to use widgets.
+• Simple platform.
+• Attractive UI designs.
+2) (web application)
+We use PHP, HTML, CSS, JavaScript and Bootstrap to create the E-health web application.
+3) Node JS
+We are using Node.js to develop the application programing interface (API). Because, there are 
+huge number of free tools, high performance, easy to learn and use etc.
+We are using express js, core js, bcrypt.js etc as the supported middleware technologies.
+Those are explaining in follow.
+
+=======================================================================================
