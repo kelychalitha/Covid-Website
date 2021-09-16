@@ -68,14 +68,21 @@ development part by creating a web application and the mobile application.
 1) (Mobile application) flutter with dart language
 We are using flutter with dart language to develop our E- health mobile application. The reason 
 that we choose flutter is,
+
 • The mobile application is run on both android and iOS. (can developed cross platform 
 apps)
+
 • Hot reload
+
 • Ready to use widgets.
+
 • Simple platform.
+
 • Attractive UI designs.
+
 2) (web application)
 We use PHP, HTML, CSS, JavaScript and Bootstrap to create the E-health web application.
+
 3) Node JS
 We are using Node.js to develop the application programing interface (API). Because, there are 
 huge number of free tools, high performance, easy to learn and use etc.
